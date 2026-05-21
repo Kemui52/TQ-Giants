@@ -1,0 +1,4 @@
+tagOutskirts=Village Outskirts
+nameHorse=Horse
+nameVillageSoldier=Village Soldier
+nameVillagePeasant=Village Peasant
