@@ -1,25 +1,19 @@
-# BG3 Giants Mod
+# Titan Quest Giants Mod
 
-Adds various overpowered size-changing abilities to the Barbarian's Giant subclass for personal enjoyment. This is in its very early stages, and thus is a work in progress. The core of the mod is freely changing your size, primarily through two toggleable passives; one for being big and the other for being massive. The latter will enhance your attack ranges, but navigating the world will be difficult (thus why there are two passives). The mod goes well with the [Enlarge/Reduce Deluxe](https://www.nexusmods.com/baldursgate3/mods/837) mod, but the passives aren't intended to stack with it. The "DamageRoll" mod in this repo is *not* a replacement for the Deluxe mod, but an addon for it. It adds abilities to the size-changing statuses and makes the Enlarge/Reduce spells completely free.
+A setup for playing as an overpowered giant with a custom world full of prey (WIP).
 
-***Spoiler Warning!*** Mod ~~adds and~~ will add story spoiler characters and creatures to a summon ability.
+## How to Install Mod Source
 
-## How to Install Modkit Source
+You should be able to install the mod source for opening in the game's toolkit by copying the Working folder to the Working folder in your My Games directory. For example:
 
-You should be able to install a mod's source to your modding kit by copying its Editor, Mods, Projects, and Public folders into the following game directory:
+``.\Documents\My Games\Titan Quest - Immortal Throne\Working\CustomMaps\TQgiants\``
 
-``.\Baldurs Gate 3\Data\``
+For the time being, the toolkit will need to be set up and used to build the mod. Refer to the game directory's toolset guide for info on setting up the working directories.
 
-I assume so, anyway. Dunno if anything else is needed. This can also be done to play the mod, but that'd be pretty cumbersome.
+Change which giant to play as by renaming them in ``.\database\records\xpack\creatures\pc\``. Use the ArtManager.exe to see short descriptions for the files and of course to build the mod.
 
-## How to Install Local Release
+Unfortunately, actually getting **working textures** is a bit obtuse. You will need to copy the newly built database ARZ file into TheBouncer's database folder (create the folder) and rename the ARZ file to ``TheBouncer.arz``. Then, load into the game, play TheBouncer's custom "bounce" map with any character, then BACK OUT of the character select after the bounce messagebox, go to the Custom Quest character selector, and finally create a new character for your monster. If you don't do this, the monster models will have their textures overwritten by the player textures. One last thing, close and restart the game; trying to load a mod again at this point will just crash the game since it can't unload the mod from the bounce.
 
-Release paks should be placed in:
+You can also use the "bounce" to load into the standard campaigns as the giant, though full compatibility with DLCs is not tested and may not allow using some weapon types.
 
-``.\AppData\Local\Larian Studios\Baldur's Gate 3\Mods\``
 
-Then, of course, enable it. As for the load order, well... You can't choose that in BG3 (thanks, Larian), so I named things appropriately when needed.
-
-## Other Info
-
-Hi.
