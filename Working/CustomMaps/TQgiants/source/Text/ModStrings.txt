@@ -1,4 +1,6 @@
 tagOutskirts=Village Outskirts
 nameHorse=Horse
-nameVillageSoldier=Village Soldier
-nameVillagePeasant=Village Peasant
+nameVillageSoldier=Guard
+nameVillagePeasant=Peasant
+nameCityPeasant=Peasant
+descSlam=Slam the ground with immense might, damaging all surrounding foes.
