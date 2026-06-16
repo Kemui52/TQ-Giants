@@ -1,0 +1,8 @@
+templateName,database\Templates\Skill_BuffRadiusToggled.tpl,
+ActorName,SpiritMastery_LifeLeech,
+Class,Skill_BuffRadiusToggled,
+FileDescription,trample damage activator,
+buffSkillName,monsters\skills\typhon_tramplebuff.dbr,
+instantCast,0,
+fileNameHistoryEntry,CustomMaps\TQgiants\Monsters\Skills\deathchillaura.dbr,
+fileNameHistoryEntry,CustomMaps\TQgiants\Monsters\Skills\deathchillaura.dbr,
