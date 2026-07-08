@@ -4,3 +4,4 @@ nameVillageSoldier=Guard
 nameVillagePeasant=Peasant
 nameCityPeasant=Peasant
 descSlam=Slam the ground with immense might, damaging all surrounding foes.
+descEQ=Rupture the earth beneath a target, devastating them from below.
